@@ -1,0 +1,60 @@
+.container-bottone {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.cambia-colore {
+    background-color: violet;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 25px;
+}
+
+.cambia-colore.active {
+    background-color: black;
+    color: violet;
+}
+
+.cambia-colore:hover {
+    background-color: black;
+    color: violet;
+}
+
+.cambia-colore:active {
+    background-color: green;
+    color: white;
+}
+
+.form-utente {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+
+.container-genera-persona {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+
+.genera-persona {
+    margin-top: 30px;
+    background-color: violet;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 300px;
+}
