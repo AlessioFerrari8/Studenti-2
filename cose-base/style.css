@@ -1,3 +1,12 @@
+.p-stile {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
 .container-bottone {
     text-align: center;
     margin-top: 50px;
@@ -58,3 +67,5 @@
     border: 2px solid black;
     width: 300px;
 }
+
+
